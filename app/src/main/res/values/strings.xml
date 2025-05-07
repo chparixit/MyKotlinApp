@@ -3,4 +3,7 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_card.kt">Card.kt</string>
     <string name="title_activity_cardactivity.kt">Cardactivity.kt</string>
+    <string name="title_activity_rentalstore">Rentalstore</string>
+    <string name="title_activity_loginactivity1">Loginactivity1</string>
+    <string name="title_activity_register">RegisterActivity</string>
 </resources>

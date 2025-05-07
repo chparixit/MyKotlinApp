@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Kotlin"
         tools:targetApi="31">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.Kotlin" />
+        <activity
+            android:name=".Loginactivity1"
+            android:exported="false"
+            android:label="@string/title_activity_loginactivity1"
+            android:theme="@style/Theme.Kotlin" />
+        <activity
+            android:name=".Rentalstore"
+            android:exported="true"
+            android:label="@string/title_activity_rentalstore"
+            android:theme="@style/Theme.Kotlin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Card.kt"
             android:exported="false"
             android:label="@string/title_activity_card.kt"
